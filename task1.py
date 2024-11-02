@@ -12,7 +12,6 @@ def roman_to_integer(roman_number: str) -> int:
     total = 0
     prev_value = 0
 
-
     for char in roman_number:
         current_value = roman_values[char]
         if current_value > prev_value:
